@@ -55,7 +55,7 @@ public class ClientHandler implements Runnable {
                         continue;
                 }
 
-                out.println(result);
+                System.out.println(result);
                 Statistics.sumResult(result);
             }
         } catch (IOException e) {
